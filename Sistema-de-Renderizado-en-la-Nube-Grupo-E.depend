@@ -1,0 +1,74 @@
+# depslib dependency file v1.0
+1780333056 source:c:\users\rama-pc\desktop\sistema-de-renderizado-en-la-nube-grupo-e\logger.cpp
+	"Logger.h"
+	<chrono>
+	<ctime>
+	<iomanip>
+	<iostream>
+	<sstream>
+
+1780333056 c:\users\rama-pc\desktop\sistema-de-renderizado-en-la-nube-grupo-e\logger.h
+	<fstream>
+	<mutex>
+	<string>
+	"Job.h"
+
+1780333056 c:\users\rama-pc\desktop\sistema-de-renderizado-en-la-nube-grupo-e\job.h
+	<chrono>
+	<string>
+
+1780333056 source:c:\users\rama-pc\desktop\sistema-de-renderizado-en-la-nube-grupo-e\main.cpp
+	"Menu.h"
+
+1780333056 c:\users\rama-pc\desktop\sistema-de-renderizado-en-la-nube-grupo-e\menu.h
+
+1780333056 source:c:\users\rama-pc\desktop\sistema-de-renderizado-en-la-nube-grupo-e\messagequeue.cpp
+	"MessageQueue.h"
+
+1780333056 c:\users\rama-pc\desktop\sistema-de-renderizado-en-la-nube-grupo-e\messagequeue.h
+	<mutex>
+	<queue>
+	"Job.h"
+	"Semaforo.h"
+
+1780333056 c:\users\rama-pc\desktop\sistema-de-renderizado-en-la-nube-grupo-e\semaforo.h
+	<condition_variable>
+	<mutex>
+
+1780333056 source:c:\users\rama-pc\desktop\sistema-de-renderizado-en-la-nube-grupo-e\poolvram.cpp
+	"PoolVRAM.h"
+	<chrono>
+	<thread>
+
+1780333056 c:\users\rama-pc\desktop\sistema-de-renderizado-en-la-nube-grupo-e\poolvram.h
+	<mutex>
+	<vector>
+	"Job.h"
+	"Semaforo.h"
+
+1780333056 source:c:\users\rama-pc\desktop\sistema-de-renderizado-en-la-nube-grupo-e\renderfarm.cpp
+	"RenderFarm.h"
+	<chrono>
+	<iostream>
+	<thread>
+
+1780333056 c:\users\rama-pc\desktop\sistema-de-renderizado-en-la-nube-grupo-e\renderfarm.h
+	<chrono>
+	<mutex>
+	<thread>
+	<vector>
+	"Logger.h"
+	"MessageQueue.h"
+	"PoolVRAM.h"
+
+1780333056 source:c:\users\rama-pc\desktop\sistema-de-renderizado-en-la-nube-grupo-e\semaforo.cpp
+	"Semaforo.h"
+
+1780775606 source:c:\users\rama-pc\desktop\sistema-de-renderizado-en-la-nube-grupo-e\menu.cpp
+	"Menu.h"
+	<cstdlib>
+	<iostream>
+	<limits>
+	<string>
+	"RenderFarm.h"
+
